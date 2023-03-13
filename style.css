@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color: red;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.maincolor{
+    width:450px;
+    height:200px;
+    background-color: #ECAA52;
+    position: relative;
+}
+.round1{
+    height: 250px;
+    width: 250px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: -2px;
+    left: -147px;
+}
+.round2{
+    height: 250px;
+    width: 250px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 70px;
+    left: -5px;
+}
+.round3{
+    height: 250px;
+    width: 250px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: -2px;
+    left: 347px;
+}
+.round4{
+    height: 250px;
+    width: 250px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 70px;
+    left: 205px;
+}
+.big-ract{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    position: absolute;
+    top: -56px;
+    left: 173px;
+    border-radius: 11px;
+}
+.small-ract{
+    height: 40px;
+    width:22px;
+    position: absolute;
+    background-color: #ECAA52;
+    top:23px;
+    left: 213px;
+}
+.small-circle-1{
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    background-color: #ECAA52;
+    border-radius: 50%;
+    top: 17px;
+    left: 208px;
+}
+.small-circle-2{
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    background-color: #ECAA52;
+    border-radius: 50%;
+    top: 17px;
+    left: 228px;
+}
